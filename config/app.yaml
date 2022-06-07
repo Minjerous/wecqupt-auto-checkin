@@ -1,0 +1,34 @@
+user:
+  name: xxx                             #名字
+  xh: 2021210000                                   #学号
+  xb: 男                                   #性别 "男"OR"女"
+  openid: 16546xxx                               #oppenId(看文档)
+#==============以下位置基本不用改=====================
+  locationBig: 中国,重庆市,重庆市,南岸区      #坐标
+  locationSmall: 重庆邮电大学
+  latitude: 29.53304
+  longitude: 106.60770
+  szdq: 重庆市,重庆市,南岸
+  xxdz: 重庆邮电大xxxx                     #填写你的宿舍(也可以不改)
+  ywjcqzbl: 低风险
+  ywjchblj: 无
+  xjzdywqzb: 无
+  twsfzc: 是
+  ywytdzz: 无
+  jkmresult: 绿色
+
+#====不用填写=========================================
+  beizhu:  无               #备注
+  timestamp:               #时间戳
+  mrdkkey:               #日期时间
+
+#默认启动程序就打卡
+timer_clock:
+  hour: 0            #0~23 选择打卡的小时
+  minute: 0          #0~60 选择打卡的分钟
+
+setting_openid:
+  openid:                   #可以自己随便设置别跟别人重了就行(建议随机设置)，请求成功后可以用这个id调用每日打卡和其他接口
+  yktid: 16750XX            #账号（统一认证码）
+  passwd: xxxxxxxxxx        #密码
+  timestamp: 0              #不用填写
